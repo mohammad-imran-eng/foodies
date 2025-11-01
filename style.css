@@ -102,8 +102,6 @@ nav a:hover {
 
 /* services section */
 .services {
-    width: 800px;
-    margin: 0 auto;
     display: grid;
     grid-template-columns: 200px 200px;
     justify-content: space-around;
@@ -129,7 +127,324 @@ nav a:hover {
     font-size: 14px;
 }
 
+/* benefit section */
 
+
+.our-benefit .img {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.our-benefit .title {
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+}
+
+.our-benefit .desc {
+    display: grid;
+    justify-content: center;
+}
+
+.our-benefit .heading {
+    font-weight: 500;
+    font-size: 60px;
+    color: #1D1D1F;
+    margin-bottom: 20px;
+}
+
+.our-benefit i {
+    color: #06C167;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+/* our stars */
+.our-stars {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.our-stars .left-side {
+    order: 2;
+}
+
+.our-stars .right-side {
+    display: flex;
+    justify-content: center;
+    order: 1;
+}
+
+.our-stars .title {
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.our-stars .left-side {
+    display: grid;
+    justify-content: center;
+}
+
+.our-stars .heading {
+    font-weight: 500;
+    color: #1D1D1F;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.our-stars h4 {
+    color: #06C167;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.our-stars .second-title {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.our-stars .counter {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.our-stars button {
+    background: #06C167;
+    color: #ffff;
+    padding: 20px 40px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+/* food section */
+.food {
+    margin: 40px 0;
+}
+
+.food .one {
+    display: grid;
+    justify-content: center;
+}
+
+.food .one.one:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 1s all;
+}
+
+.food .one .desc {
+    border: 2px solid #06C167;
+}
+
+.food .title {
+    color: #1D1D1F;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.food .heading {
+    color: #1D1D1F;
+    font-weight: 500;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.food .desc {
+    background-color: #F3FCF7;
+    width: 292.5px;
+    text-align: center;
+}
+
+.food .desc h5 {
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.food .desc p {
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.food .desc button {
+    background-color: #e6f9f0;
+    color: #06C167;
+    border: none;
+    padding: 20px 15px;
+}
+
+.food .desc button:hover {
+    background-color: #fff;
+}
+
+.food .desc i {
+    color: #06C167;
+}
+
+/* our products */
+
+.product .title {
+    text-align: center;
+}
+
+.product .one {
+    display: grid;
+    justify-content: center;
+    width: 270px;
+    margin: 30px auto;
+    gap: 10px 0;
+    border: 3px solid gray;
+    padding: 15px 5px;
+}
+
+.product .one:hover {
+    border: 3px solid #06C167;
+}
+
+.product .stars {
+    text-align: center;
+}
+
+.product .stars i {
+    color: #06C167;
+}
+
+.product .name {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.product .price {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.product button {
+    border: 2px solid #06C167;
+    background: white;
+    padding: 15px 10px;
+    color: #06C167;
+}
+
+.product button:hover {
+    background-color: #06C167;
+    color: white;
+}
+
+.product .price {
+    color: #06C167;
+}
+
+.product del {
+    color: gray;
+}
+
+/* banner background */
+.banner-background {
+    max-width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url('./images/background-img.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.banner-background h2 {
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.banner-background button {
+    background: #06C167;
+    color: #ffff;
+    padding: 20px 40px;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+/* footer section */
+footer {
+    display: grid;
+    justify-content: center;
+    gap: 50px 0;
+}
+footer .title {
+    display: grid;
+    gap: 20px;
+}
+footer .title h4 {
+    font-weight: 500;
+    font-size: 32px;
+    color: #06C167;
+}
+footer .title p {
+    font-weight: 400;
+    font-size: 16px;
+}
+footer .about {
+    display: grid;
+    gap: 10px;
+}
+footer .about h4 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #0C1B2A;
+}
+footer .about p {
+    font-weight: 400;
+    font-size: 14px;
+}
+footer .company {
+    display: grid;
+    gap: 10px;
+}
+footer .company h4 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #0C1B2A;
+}
+footer .getInTouch h4  {
+    font-weight: 500;
+    font-size: 24px;
+    color: #1D1D1F;
+    margin-bottom: 10px;
+}
+.footer .getInTouch p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+footer .getInTouch .subscribe {
+    display: flex;
+    flex-direction: column;
+}
+footer input {
+    border: none;
+    background: #F0F1EC;
+    padding: 15px 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+footer button {
+    border: none;
+    background: #06C167;
+    color: #fff;
+    padding: 15px 10px;
+    font-weight: bold;
+    margin: 10px 0;
+}
 /* Responsive layout desktop view */
 
 @media screen and (min-width: 1025px) {
@@ -140,7 +455,7 @@ nav a:hover {
 
     .navbar {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     nav {
@@ -178,5 +493,50 @@ nav a:hover {
 
     .services {
         grid-template-columns: 200px 200px 200px 200px;
+    }
+
+    .our-benefit {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .our-benefit .title {
+        text-align: start;
+    }
+
+    .our-stars {
+        padding: 0 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .our-stars .counter {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .our-stars .left-side {
+        order: 1;
+    }
+
+    .our-stars .right-side {
+        order: 2;
+    }
+
+    .food .parent {
+        display: grid;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+    }
+
+    .product .all-product {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    footer {
+        display: grid;
+        grid-template-columns: 180px 180px 180px 260px;
+        justify-content: space-evenly;
     }
 }
