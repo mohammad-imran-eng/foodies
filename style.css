@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    display: grid;
+    justify-content: center;
+    background-color: #F3FCF7;
+    padding: 0px 40px;
+}
+
+header h1 {
+    color: #06C167;
+    font-weight: 500;
+}
+
+.navbar {
+    margin: 50px 0;
+}
+
+nav {
+    color: #1D1D1F;
+    display: grid;
+    gap: 10px 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    color: #1D1D1F;
+}
+
+nav a:hover {
+    color: #06C167;
+}
+
+.banner-heading h2 {
+    color: #1D1D1F;
+    font-size: 51px;
+    margin-bottom: 20px;
+}
+
+.banner-heading p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #1D1D1FBF;
+}
+
+.banner-heading button {
+    background: #06C167;
+    color: #ffff;
+    padding: 20px 40px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.banner-img {
+    position: relative;
+}
+
+.banner-img .rectangle1 {
+    position: absolute;
+    left: 51px;
+    bottom: 67px;
+}
+
+.banner-img .rectangle2 {
+    position: absolute;
+    left: 45px;
+    bottom: 0;
+}
+
+.banner-img .dot {
+    position: absolute;
+    left: 143px;
+    bottom: -18px;
+}
+
+.banner-img .ratings {
+    position: absolute;
+    left: 76px;
+    bottom: 83px;
+}
+
+.banner-img .review {
+    position: absolute;
+    left: 51px;
+    bottom: 6px;
+    display: flex;
+    gap: 0 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* services section */
+.services {
+    width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.services i {
+    width: 70px;
+    margin: 0 auto;
+    color: #06C167;
+    font-size: 30px;
+    background: #f3fcf7;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.services .title {
+    font-size: 18px;
+}
+
+.services .desc {
+    font-size: 14px;
+}
+
+
+/* Responsive layout desktop view */
+
+@media screen and (min-width: 1025px) {
+    nav {
+        display: flex;
+        gap: 0 30px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav {
+        margin-bottom: 30px;
+    }
+
+    .banner {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .banner-img .rectangle1 {
+        position: absolute;
+        left: -109px;
+        bottom: 199px;
+    }
+
+    .banner-img .ratings {
+        position: absolute;
+        left: -70px;
+        bottom: 213px;
+    }
+
+    .banner-img .rectangle2 {
+        position: absolute;
+        left: 193px;
+        bottom: 258px;
+    }
+
+    .banner-img .review {
+        position: absolute;
+        right: -235px;
+        bottom: 264px;
+    }
+
+    .services {
+        grid-template-columns: 200px 200px 200px 200px;
+    }
+}
